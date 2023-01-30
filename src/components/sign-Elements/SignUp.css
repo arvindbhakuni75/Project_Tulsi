@@ -1,0 +1,79 @@
+
+
+
+
+.signup-form-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form-container {
+    width: 500px;
+    height: auto;
+    padding: 50px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+
+.btn-dark  {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+.card-title {
+  color:rgb(34, 156, 44);
+}
+
+.signUp-Tag {
+  color: black;
+  margin-top: 0;
+}
+
+
+
+
+
+   /* new css */
+
+  
+
+   
+   
+   .input-group {
+     display: flex;
+     flex-direction: column;
+   }
+   
+   input {
+     padding: 0.5rem;
+     font-size: 1rem;
+     font-family: inherit;
+     border: 1px solid rgba(44, 144, 243, 0.297);
+   }
+   
+   .error-message {
+     color: red;
+     font-size: 0.8rem;
+     
+   }
+   
+.account-already {
+    color: black;   
+}
+
+   .back-to-login {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: rgb(45, 58, 245);
+    text-decoration: underline;
+}
+

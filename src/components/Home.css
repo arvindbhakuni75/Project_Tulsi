@@ -1,0 +1,537 @@
+
+body {
+    color: white;
+    background-color: #010011;
+}
+
+
+
+.section {
+    max-width: 100%;
+    height: auto;
+    height: auto;
+}
+
+
+.image {
+    max-width: 100%;
+    height: 120vh;
+    display: flex;
+    background-image: url("./images/Section-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative;
+}
+
+.container {
+    height: auto; 
+}
+
+       /* navbar css */
+
+
+       /* first-heading */
+
+       .first-heading {
+        margin-top: 40px;
+    }
+    
+    .first-heading h1 {
+        color: white;
+        font-size: 54px;
+        font-weight: 700;
+        Line-height: 75.2px
+    }
+    .first-heading h1 span {
+        color: #5BC05F; 
+    }
+
+    @media screen and (max-max-width: 1200px) {
+        .first-heading h1{
+            font-size: 40px;
+            Line-height: 55.2px
+        }
+    }
+
+    .first-heading p {
+        color: white;
+    }
+    .first-heading button {
+        max-width: 160px;
+        height: 40px;
+        color: white;
+        border: none;
+        margin-top: 10px;
+        background: transparent;
+        background-image: url("./images/Login-Button.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+
+
+         /* bounty-status */
+
+
+.home-bount-status {
+    max-width: 60%;
+    height: 250px;
+    border-radius: 10px;
+    background-color: #1A1A1A;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    margin-bottom: -125px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+
+.staus-container h3{
+    color: white;
+}
+.staus-container p{
+    color: white;
+}
+
+@media screen and (max-max-width: 1200px) {
+    .bount-status {
+        height: 200px;
+        padding: 40px;
+    }
+    .staus-container h3{
+        font-size: 20px;
+    }
+}
+@media screen and (max-max-width: 900px) {
+    .staus-container h3{
+        font-size: 16px;
+    }
+}
+
+
+
+   /* second section how-it-works */
+
+.container-2 {
+    height: 130vh;
+}
+
+.how-it-works {
+    margin-top: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.how-it-works h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    border: 1px solid #5BC05F;
+}
+.how-it-works p {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.how-it-elements {
+    color: white;
+    height: 250px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.how-it-elements img{
+    margin-top: 25%;
+}
+
+.how-it-elements h6{
+    padding: 15px;
+    font-size: 20px;
+}
+.how-it-elements p {
+    padding: 0 35px;
+    text-align: center;
+}
+
+
+    /* section 3 For element */
+
+.container-3 {
+    max-width: 100%;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-image: url("./images/LinearGradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+}
+
+.For-elements {
+    padding: 50px 100px; 
+    box-sizing: border-box;
+}
+.For-elements img {
+    padding-bottom: 20px;
+}
+.For-elements h4{
+    font-weight: 400;
+    padding-bottom: 10px
+}
+.For-elements p {
+    font-weight: 400;
+    font-family: 'Helvetica';
+    line-height: 125%;
+}
+.For-elements button {
+    max-width: 160px;
+    height: 40px;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    background: transparent;
+    background-image: url("./images/Login-Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+     /* ///// section 4 Our Team  /////// */
+
+.section-4 {
+    padding: 0;
+    margin: 0;
+    height: 190vh;
+    background-image: url("./images/V-shape.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 200px;
+}
+
+
+.container-4 {
+    margin-bottom: 120px;
+}
+
+.our-team {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.our-team p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.our-team-members {
+    max-width: 100%;
+    height: 750px;
+    background-image: url("./images/hexagon-Image.png");
+    background-size: 750px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 50px;
+    padding-top: 100px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    display: flex;
+    color: white;
+}
+
+.img1 {
+    max-width: 430px;
+    height: 200px;
+    position: absolute;
+    left: 70px;
+    top: 140px;
+}
+.img1 img{
+    max-width: 180px;
+    height: 184px;
+}
+.img2 {
+    max-width: 500px;
+    height: 200px;
+    position: absolute;
+    right: 120px;
+    top: 110px;
+}
+.img2 img{
+    max-width: 180px;
+    height: 184px;
+}
+.img3 {
+    max-width: 480px;
+    height: 200px;
+    position: absolute;
+    left: 320px;
+    bottom: 250px;
+}
+.img3 img{
+    max-width: 180px;
+    height: 184px;
+}
+.team-name {
+    padding: 10px;  
+}
+.team-name h6 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.team-name p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.view-more {
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    
+}
+.view-more button{
+    height: 45px;
+    max-width: 180px;
+    background: transparent;
+    background-image: url("./images/Login-Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border: none; 
+}
+
+
+
+
+/* ........section 5 .......... */
+
+
+
+.container-5 {
+    padding-bottom: 200px;
+}
+
+.testimonial-heading {
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.text-box {
+    max-width: 320px;
+    height: 350px;
+    color: white;
+    background-image: url("./images/Text-box.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 10px 10px 50px;
+}
+.text-box img{
+    max-width: 45px;
+    height: 45px;
+}
+.text-box h6 {
+    font-size: 24px;
+    color: #5BC05F;
+}
+.text-box h6 span {
+    font-size: 16px;
+    color: white;
+    font-weight: 200;
+    padding: 0px 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(179, 176, 176);
+}
+
+.text-box span{
+    font-size: 16px;
+    margin-left: 20px;
+}
+.text-box p {
+    font-size: 13px;
+    line-height: 15.95px;
+    font-weight: 400;
+}
+
+ 
+/* ........section 6 .......... */
+
+.container-6 {
+    padding-bottom: 50px;
+}
+
+.explore-heading {
+    display: flex;
+    justify-content: center;
+}
+.explore-heading img {
+    max-width: 70%;
+    height: 100px;  
+}
+
+.bounty-box {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    background-image: url("./images/LinearGradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px 20px;
+    border-radius: 5px;
+    
+}
+
+.bounty-bar {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+
+.bounty {
+    max-width: 100%; 
+    height: 70px;
+    margin: 0 auto;
+    background-color: #2F3136;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bounty-name {
+    color: white;
+}
+.bounty-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.bounty-brand {
+    margin-left: 10px;
+    padding:  10px;    
+}
+.bounty-brand p{
+    color: #8E9297;
+    line-height: 15px;
+}
+.bounty-name {
+    display: flex;
+}
+
+
+.bounty-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.bounty-person span {
+    margin-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+.bounty-person img {
+    max-width: 40px;
+    height: 40px;
+}
+.green-tik {
+    max-width: 15px;
+    height: 15px;
+    background-color: #5BC05F;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+.money {
+    margin-left: 150px;
+    color: #E96A09;
+}
+
+.bounty-person button {
+    border: 1px solid #5BC05F;
+    border-radius: 50px;
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    color: white;
+    background: transparent;
+}
+.bounty-person button:hover{
+    color: #5BC05F;
+    border: 1px solid white;
+}
+
+
+/* ........section 7 .......... */
+
+
+.vectorWave {
+    padding: 0;
+    margin:0;
+    margin-top: -100px;
+    max-width: 100%;
+    height: auto; 
+}
+.vectorWave img {
+    max-width: 100%;
+}
+
+.container-7 {
+    margin-bottom: 250px;
+}
+
+.our-partner {
+    text-align: center;
+    margin-top: 150px;
+    margin-top: -20px;
+    margin-bottom: 90px;
+}
+
+.partner-line {
+    max-width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.partner-line-2 {
+    max-width: 100%;
+    height: 45px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button:hover{
+    color: black;
+}

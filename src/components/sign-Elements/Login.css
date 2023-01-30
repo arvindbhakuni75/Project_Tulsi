@@ -1,0 +1,207 @@
+
+.login-section {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.signup-section{
+  width: 100%;
+  height: 100vh;
+  /* background-color: white; */
+  background-color: #010011;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container-login {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.line2 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line2 img {
+  width: 90%;
+  margin-left: 9%;
+  height: 450px;
+}
+
+
+/* 
+///////////////////// */
+
+
+
+.form-label {
+    margin-top: 0px;
+}
+
+.form-control {
+    padding: 10px;
+}
+
+
+
+.reset {
+    margin-top: -10px;
+    text-align: right;
+}
+.h6 {
+    color:rgb(0, 0, 0);
+    font-weight: 500;
+    
+}
+.h6 a{
+    color: black;
+    font-size: 12px;
+}
+
+
+
+   /* new css */
+
+  
+
+   
+   
+   .input-group {
+     display: flex;
+     flex-direction: column;
+     
+   }
+   
+   input {
+     padding: 0.5rem;
+     font-size: 1rem;
+     width: 100%;
+     margin-top: 10px;
+     font-family: inherit;
+     border: 1px solid rgba(35, 141, 248, 0.297);
+   }
+   
+   .error-message {
+     color: red;
+     font-size: 0.8rem;
+     
+   }
+   
+
+   /* Tul:si */
+
+.login-logo {
+    width: 60%;
+    margin-top: 20px;
+  }
+  .login-logo img{
+    width: 90%;
+  }
+  
+  .welcome {
+    width: 70%;
+    margin-top: 20px;
+  }
+  .welcome h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  
+
+#log-btnxxx {
+    width: 100%;
+    height: 40px;
+    background-image: url("../images/Login-Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#log-btnxxx:hover {
+    color: black;
+    border: 2px solid rgba(35, 248, 99, 0.93);
+}
+
+.button-class {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-child {
+    width: 120px;
+    height: 35px;
+}
+
+.ask {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.creatLink {
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 10px 50px;
+  background-color: black;
+}
+.create-account:hover{
+  color: white;
+}
+
+.login-child img{
+    margin-top: -4px;
+    margin-right: 4px;
+}
+
+
+
+label {
+  color: rgb(249, 45, 45);
+  font-size: 14px;
+}
+
+
+
+/* ///////////////////////////////////////////// */
+
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form-container {
+  width: 500px;
+  padding: 50px;
+  margin-top: 10%;
+}

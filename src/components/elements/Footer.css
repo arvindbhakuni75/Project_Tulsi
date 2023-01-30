@@ -1,0 +1,127 @@
+
+
+
+.footer-section {
+    background-color: #272727;
+    position: relative;
+ }
+
+ .footer-container {
+    width: 80%;
+    height: 150px;
+    color: white;
+    border-radius: 15px;
+    background-color:#272727;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    margin-top: -75px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.subscribe {
+    padding: 20px 100px;
+    color: white;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+}
+.email-input {
+    width: 300px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border:2px solid rgb(30, 250, 239);
+}
+.email-input:hover{
+    width: 350px;
+}
+
+.Join-btn {
+    border-radius: 0;
+    padding: 4.5px 10px;
+    border-radius: 20px;
+    color:rgb(0, 0, 0);
+    background-color: rgb(35, 225, 35);
+    transition: smooth;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.Join-btn:hover{
+    color: white;
+    font-weight: 600;
+    padding: 4.5px 20px;
+    background-color: rgb(35, 225, 35);
+}
+
+.info-row {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.Tulsi-logo  img {
+    width: 100%;
+}
+.Tulsi-logo p {
+    font-size: 15px;
+    margin-top: 20px;
+    color:  white;
+}
+
+.icon {
+    margin-top: 30px;
+    
+} 
+
+.icon img{
+    margin-left: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+
+.information {
+    display: flex;
+}
+
+.info {
+    color: white;
+}
+
+.info h6 {
+    color: white;
+    padding-bottom: 20px;
+}  
+
+.info p {
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.info p a{
+    color: white;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+
+.info  button {
+    width: 180px;
+    height: 40px;
+    color: rgb(248, 249, 252);
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    border: none;   
+    background-image: url("../images/Login-Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+}
+
+.info  button:hover {
+    color: black;
+}

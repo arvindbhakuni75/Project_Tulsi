@@ -1,0 +1,56 @@
+
+.nav {
+    height: 100px;
+    margin-top: 60px;
+}
+
+
+
+.nav-logo img {
+    width: 250px;
+}
+
+.nav-items {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbar {
+    width: 100%;
+    margin-left: 10%;
+}
+
+/* .navbar .active{
+    color:rgb(128, 249, 63);
+} */
+
+.nav-button-login {
+    height: 40px;
+    width: 160px;
+    background: transparent;
+    background-image: url("../images/Login-Button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    border: none;  
+    text-align: center; 
+    text-decoration: none;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.nav-button-login:hover{
+    color: black;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 10px;
+}
+.nav-link:hover {
+    color: rgb(128, 249, 63);
+}
+
+

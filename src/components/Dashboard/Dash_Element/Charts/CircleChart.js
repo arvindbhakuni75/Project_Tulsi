@@ -6,7 +6,9 @@ import {
     Chart as ChartJS,
     ArcElement,
     Tooltip,
-    Legend
+    Legend,
+    CategoryScale,
+    LinearScale
 } from 'chart.js';
 
 import {Doughnut} from 'react-chartjs-2';
@@ -14,7 +16,9 @@ import {Doughnut} from 'react-chartjs-2';
 ChartJS.register(
     ArcElement,
     Tooltip,
-    Legend
+    Legend,
+    CategoryScale,
+    LinearScale
 );
 
 function CircleChart () {

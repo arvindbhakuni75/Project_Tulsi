@@ -82,7 +82,7 @@ export default function DHome () {
 
                             <div className="col-md-5 chart1">
 
-                                <CircleChart />
+                                {/* <CircleChart /> */}
 
                             </div>
 
@@ -92,7 +92,7 @@ export default function DHome () {
                                     <p>Year</p>
                                 </div>
                                 <div className="barchart">
-                                    <MainBar />
+                                    {/* <MainBar /> */}
                                 </div>
                             </div>
                         </div>

@@ -9,9 +9,6 @@ import UserDashboard from './components/UserDashboard/UserDashboard';
 import {BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Sign_up from './components/sign-Elements/Sign-up';
 
-
-
-
 function App() {
 
   return (
@@ -22,9 +19,9 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/sign-Up' element ={<Sign_up />} />
         <Route path='/about' element = {<About />} />
-        <Route path='/*' element={<Home />} />
-        <Route path='/deshboard/*' element={<Dashboard />} />
-        <Route path = '/userdashboard/' element = {<UserDashboard />} />
+        <Route exect path='/*' element={<Home />} />
+        <Route exect path='/deshboard/*' element={<Dashboard />} />
+        <Route exect path = '/userdashboard/' element = {<UserDashboard />} />
         
       </Routes>
       
